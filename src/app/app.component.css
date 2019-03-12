@@ -1,0 +1,18 @@
+/*ID for the sidebar*/
+#sideBar{
+    height: 100vh; /*This will enable us to select size relative to the view port*/
+    padding-top: 80px; /*Apply padding to the top of 80px*/
+    position: fixed; /*This way we will be able to scroll other parts of the app without having the sidebar move*/
+    background-color: #191F26; /*quite dark*/
+}
+
+/*ID for the dashboard*/
+#dashboard{
+    margin-top: 60px; /*moved content goes here lower*/
+}
+
+/*Class navbar selector*/
+#navbar{
+    background-color: #161A1E!important; /*Quite dark. !Important-Override the default colour*/
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.25); /*Apply a specific box shadow to the navbar*/
+}

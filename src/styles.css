@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+/*Apply styling to the body element*/
+body{
+    font-family: 'Source Sans Pro', sans-serif; /*i will be using a particular Google Font throughout the whole project*/
+    background-color: #1C2228; /*Give it a dark background colour*/
+    color: #f7fff7; /*...and a light default font colour*/
+    height: 100%;
+}
+
+a {
+    color: #44a4cd; /*blue color for the links*/
+}
+
+a:hover {
+    color: #44a8cf; /*Brighter blue color for the links that are hovered over*/
+}
+
+/*box shadow on several elements to give it a material feel*/
+.shadow {
+    box-shadow: 0 8px 12px rgba(0,0,0,0.2), 0 5px 6px rgba(0,0,0,0.3);
+}
+
+/*Apply 30 pexels of pading to the container*/
+.section-container{
+    padding: 30px;
+}
+
