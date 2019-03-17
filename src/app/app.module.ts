@@ -10,6 +10,9 @@ import { SectionHealthComponent } from './sections/section-health/section-health
 import { SectionOrdersComponent } from './sections/section-orders/section-orders.component';
 import { SectionDataComponent } from './sections/section-data/section-data.component';
 import { SectionPollutionComponent } from './sections/section-pollution/section-pollution.component';
+import { BarChartComponent } from './charts/bar-chart/bar-chart.component';
+import { LineChartComponent } from './charts/line-chart/line-chart.component';
+import { PieChartComponent } from './charts/pie-chart/pie-chart.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { SectionPollutionComponent } from './sections/section-pollution/section-
     SectionHealthComponent,
     SectionOrdersComponent,
     SectionDataComponent,
-    SectionPollutionComponent
+    SectionPollutionComponent,
+    BarChartComponent,
+    LineChartComponent,
+    PieChartComponent
   ],
   imports: [
     BrowserModule,
