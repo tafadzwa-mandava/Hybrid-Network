@@ -1,0 +1,29 @@
+.block-status{
+    width: 200px;           /*Create a 200px by 200px box*/
+    height: 200px;
+    font-size: 1.3em;
+    color: #000;
+    text-align: center;
+    padding: 0 20px;        /*Padding on the left and right of 20 px*/
+    margin: 20px;
+}
+
+.name{
+    padding: 5px;
+    font-size: 0.7em;
+    display: block;
+    font-family: monospace;
+    transition: 0.3s;
+}
+
+.status{
+    display: block;
+    transition: 0.3s;       /*Supply a transiition. Where we transion the state of out server from On to Off or back. For the sole purpose of having a smooth transition */
+}
+
+.action{
+    display: block;
+    font-size: 0.7em;
+    margin-top: 12px;
+    transition: 0.3s;
+}
